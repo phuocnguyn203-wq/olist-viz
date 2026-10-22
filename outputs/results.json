@@ -1,0 +1,1041 @@
+{
+ "tables": {
+  "orders": {
+   "số dòng": 99441,
+   "số cột": 8,
+   "ô bị thiếu": 4908,
+   "dòng trùng lặp": 0
+  },
+  "order_items": {
+   "số dòng": 112650,
+   "số cột": 7,
+   "ô bị thiếu": 0,
+   "dòng trùng lặp": 0
+  },
+  "order_payments": {
+   "số dòng": 103886,
+   "số cột": 5,
+   "ô bị thiếu": 0,
+   "dòng trùng lặp": 0
+  },
+  "order_reviews": {
+   "số dòng": 99224,
+   "số cột": 7,
+   "ô bị thiếu": 145903,
+   "dòng trùng lặp": 0
+  },
+  "customers": {
+   "số dòng": 99441,
+   "số cột": 5,
+   "ô bị thiếu": 0,
+   "dòng trùng lặp": 0
+  },
+  "sellers": {
+   "số dòng": 3095,
+   "số cột": 4,
+   "ô bị thiếu": 0,
+   "dòng trùng lặp": 0
+  },
+  "products": {
+   "số dòng": 32951,
+   "số cột": 9,
+   "ô bị thiếu": 2448,
+   "dòng trùng lặp": 0
+  },
+  "geolocation": {
+   "số dòng": 1000163,
+   "số cột": 5,
+   "ô bị thiếu": 0,
+   "dòng trùng lặp": 261831
+  },
+  "category_translation": {
+   "số dòng": 71,
+   "số cột": 2,
+   "ô bị thiếu": 0,
+   "dòng trùng lặp": 0
+  }
+ },
+ "order_status": {
+  "delivered": 96478,
+  "shipped": 1107,
+  "canceled": 625,
+  "unavailable": 609,
+  "invoiced": 314,
+  "processing": 301,
+  "created": 5,
+  "approved": 2
+ },
+ "date_range": [
+  "2016-09-04 21:15:19",
+  "2018-10-17 17:30:18"
+ ],
+ "reviews_dup_orders": 551,
+ "n_delivered_clean": 96470,
+ "totals": {
+  "orders": 96470,
+  "revenue": 15418395,
+  "aov": 159.83,
+  "aov_median": 105.28,
+  "customers": 93350,
+  "sellers": 3095,
+  "products": 32951,
+  "freight_share": 0.1426
+ },
+ "monthly": [
+  {
+   "month": "2017-01",
+   "orders": 750,
+   "revenue": 127482
+  },
+  {
+   "month": "2017-02",
+   "orders": 1653,
+   "revenue": 271239
+  },
+  {
+   "month": "2017-03",
+   "orders": 2546,
+   "revenue": 414331
+  },
+  {
+   "month": "2017-04",
+   "orders": 2303,
+   "revenue": 390812
+  },
+  {
+   "month": "2017-05",
+   "orders": 3545,
+   "revenue": 566657
+  },
+  {
+   "month": "2017-06",
+   "orders": 3135,
+   "revenue": 490050
+  },
+  {
+   "month": "2017-07",
+   "orders": 3872,
+   "revenue": 566299
+  },
+  {
+   "month": "2017-08",
+   "orders": 4193,
+   "revenue": 645832
+  },
+  {
+   "month": "2017-09",
+   "orders": 4150,
+   "revenue": 701077
+  },
+  {
+   "month": "2017-10",
+   "orders": 4478,
+   "revenue": 751117
+  },
+  {
+   "month": "2017-11",
+   "orders": 7288,
+   "revenue": 1153229
+  },
+  {
+   "month": "2017-12",
+   "orders": 5513,
+   "revenue": 843078
+  },
+  {
+   "month": "2018-01",
+   "orders": 7069,
+   "revenue": 1077887
+  },
+  {
+   "month": "2018-02",
+   "orders": 6555,
+   "revenue": 966168
+  },
+  {
+   "month": "2018-03",
+   "orders": 7003,
+   "revenue": 1120598
+  },
+  {
+   "month": "2018-04",
+   "orders": 6798,
+   "revenue": 1132879
+  },
+  {
+   "month": "2018-05",
+   "orders": 6749,
+   "revenue": 1128775
+  },
+  {
+   "month": "2018-06",
+   "orders": 6096,
+   "revenue": 1011449
+  },
+  {
+   "month": "2018-07",
+   "orders": 6156,
+   "revenue": 1027287
+  },
+  {
+   "month": "2018-08",
+   "orders": 6351,
+   "revenue": 985492
+  }
+ ],
+ "yoy_jan_aug": {
+  "orders_2017": 21997,
+  "orders_2018": 52777,
+  "rev_2017": 3472704,
+  "rev_2018": 8450535
+ },
+ "top_days": {
+  "2017-11-24": 1147,
+  "2017-11-25": 487,
+  "2017-11-27": 395,
+  "2017-11-26": 382,
+  "2017-11-28": 371
+ },
+ "median_daily_2017_11": 183.0,
+ "dow": [
+  15701,
+  15502,
+  15074,
+  14322,
+  13684,
+  10555,
+  11632
+ ],
+ "hour": [
+  2321,
+  1133,
+  496,
+  259,
+  203,
+  182,
+  477,
+  1199,
+  2907,
+  4647,
+  5978,
+  6385,
+  5802,
+  6309,
+  6383,
+  6249,
+  6475,
+  5961,
+  5585,
+  5801,
+  6007,
+  6039,
+  5658,
+  4014
+ ],
+ "n_categories": 71,
+ "top_categories": [
+  {
+   "category": "health_beauty",
+   "revenue": 1233131.7,
+   "items": 9465,
+   "avg_price": 130.3
+  },
+  {
+   "category": "watches_gifts",
+   "revenue": 1165899.0,
+   "items": 5857,
+   "avg_price": 199.1
+  },
+  {
+   "category": "bed_bath_table",
+   "revenue": 1023434.8,
+   "items": 10953,
+   "avg_price": 93.4
+  },
+  {
+   "category": "sports_leisure",
+   "revenue": 954673.6,
+   "items": 8430,
+   "avg_price": 113.2
+  },
+  {
+   "category": "computers_accessories",
+   "revenue": 888613.6,
+   "items": 7643,
+   "avg_price": 116.3
+  },
+  {
+   "category": "furniture_decor",
+   "revenue": 711927.7,
+   "items": 8160,
+   "avg_price": 87.2
+  },
+  {
+   "category": "housewares",
+   "revenue": 615628.7,
+   "items": 6795,
+   "avg_price": 90.6
+  },
+  {
+   "category": "cool_stuff",
+   "revenue": 610204.1,
+   "items": 3718,
+   "avg_price": 164.1
+  },
+  {
+   "category": "auto",
+   "revenue": 578849.4,
+   "items": 4139,
+   "avg_price": 139.9
+  },
+  {
+   "category": "toys",
+   "revenue": 471097.5,
+   "items": 4029,
+   "avg_price": 116.9
+  }
+ ],
+ "top10_cat_share": 0.6243,
+ "n_cat_for_80pct": 18,
+ "price_quantiles": {
+  "0.25": 39.9,
+  "0.5": 74.9,
+  "0.75": 134.17,
+  "0.95": 349.0
+ },
+ "payment_types": {
+  "boleto": {
+   "tỷ trọng số giao dịch": 0.1905,
+   "tỷ trọng giá trị": 0.1796
+  },
+  "credit_card": {
+   "tỷ trọng số giao dịch": 0.7403,
+   "tỷ trọng giá trị": 0.7846
+  },
+  "debit_card": {
+   "tỷ trọng số giao dịch": 0.0147,
+   "tỷ trọng giá trị": 0.0135
+  },
+  "voucher": {
+   "tỷ trọng số giao dịch": 0.0545,
+   "tỷ trọng giá trị": 0.0222
+  }
+ },
+ "installments_mean": 3.5,
+ "installments_share_gt1": 0.668,
+ "installments": [
+  {
+   "payment_installments": "1",
+   "n": 24757,
+   "avg_value": 95.5991,
+   "share": 0.332
+  },
+  {
+   "payment_installments": "2-3",
+   "n": 22237,
+   "avg_value": 133.6321,
+   "share": 0.2982
+  },
+  {
+   "payment_installments": "4-6",
+   "n": 15787,
+   "avg_value": 180.4811,
+   "share": 0.2117
+  },
+  {
+   "payment_installments": "7-10",
+   "n": 11467,
+   "avg_value": 330.8676,
+   "share": 0.1538
+  },
+  {
+   "payment_installments": ">10",
+   "n": 329,
+   "avg_value": 359.4013,
+   "share": 0.0044
+  }
+ ],
+ "states": [
+  {
+   "customer_state": "SP",
+   "orders": 40494,
+   "aov": 142.4537,
+   "freight": 17.3348,
+   "days": 8.7614,
+   "late": 0.0589,
+   "share": 0.4198
+  },
+  {
+   "customer_state": "RJ",
+   "orders": 12350,
+   "aov": 166.4293,
+   "freight": 23.9474,
+   "days": 15.3094,
+   "late": 0.1347,
+   "share": 0.128
+  },
+  {
+   "customer_state": "MG",
+   "orders": 11354,
+   "aov": 160.1983,
+   "freight": 23.464,
+   "days": 12.0087,
+   "late": 0.0561,
+   "share": 0.1177
+  },
+  {
+   "customer_state": "RS",
+   "orders": 5344,
+   "aov": 161.1674,
+   "freight": 24.8054,
+   "days": 15.3003,
+   "late": 0.0715,
+   "share": 0.0554
+  },
+  {
+   "customer_state": "PR",
+   "orders": 4923,
+   "aov": 158.7871,
+   "freight": 23.4908,
+   "days": 11.9916,
+   "late": 0.05,
+   "share": 0.051
+  },
+  {
+   "customer_state": "SC",
+   "orders": 3546,
+   "aov": 167.8307,
+   "freight": 24.8493,
+   "days": 14.9548,
+   "late": 0.0976,
+   "share": 0.0368
+  },
+  {
+   "customer_state": "BA",
+   "orders": 3256,
+   "aov": 181.5534,
+   "freight": 29.9612,
+   "days": 19.3355,
+   "late": 0.1404,
+   "share": 0.0338
+  },
+  {
+   "customer_state": "DF",
+   "orders": 2080,
+   "aov": 166.4055,
+   "freight": 23.8581,
+   "days": 12.9676,
+   "late": 0.0707,
+   "share": 0.0216
+  },
+  {
+   "customer_state": "ES",
+   "orders": 1995,
+   "aov": 159.227,
+   "freight": 24.5687,
+   "days": 15.7893,
+   "late": 0.1223,
+   "share": 0.0207
+  },
+  {
+   "customer_state": "GO",
+   "orders": 1957,
+   "aov": 170.7779,
+   "freight": 26.2522,
+   "days": 15.6063,
+   "late": 0.0818,
+   "share": 0.0203
+  },
+  {
+   "customer_state": "PE",
+   "orders": 1593,
+   "aov": 193.9561,
+   "freight": 35.8334,
+   "days": 18.4483,
+   "late": 0.108,
+   "share": 0.0165
+  },
+  {
+   "customer_state": "CE",
+   "orders": 1279,
+   "aov": 208.3165,
+   "freight": 36.4968,
+   "days": 21.2666,
+   "late": 0.1532,
+   "share": 0.0133
+  },
+  {
+   "customer_state": "PA",
+   "orders": 946,
+   "aov": 224.1264,
+   "freight": 39.6966,
+   "days": 23.7729,
+   "late": 0.1237,
+   "share": 0.0098
+  },
+  {
+   "customer_state": "MT",
+   "orders": 886,
+   "aov": 204.5422,
+   "freight": 32.7684,
+   "days": 18.0558,
+   "late": 0.0677,
+   "share": 0.0092
+  },
+  {
+   "customer_state": "MA",
+   "orders": 717,
+   "aov": 206.1416,
+   "freight": 42.9486,
+   "days": 21.573,
+   "late": 0.1967,
+   "share": 0.0074
+  },
+  {
+   "customer_state": "MS",
+   "orders": 701,
+   "aov": 191.6798,
+   "freight": 27.0151,
+   "days": 15.6183,
+   "late": 0.1155,
+   "share": 0.0073
+  },
+  {
+   "customer_state": "PB",
+   "orders": 517,
+   "aov": 266.6123,
+   "freight": 48.8428,
+   "days": 20.4268,
+   "late": 0.1103,
+   "share": 0.0054
+  },
+  {
+   "customer_state": "PI",
+   "orders": 476,
+   "aov": 220.9626,
+   "freight": 42.9773,
+   "days": 19.4571,
+   "late": 0.1597,
+   "share": 0.0049
+  },
+  {
+   "customer_state": "RN",
+   "orders": 474,
+   "aov": 212.4784,
+   "freight": 39.2597,
+   "days": 19.2782,
+   "late": 0.1076,
+   "share": 0.0049
+  },
+  {
+   "customer_state": "AL",
+   "orders": 397,
+   "aov": 237.2103,
+   "freight": 38.5813,
+   "days": 24.5439,
+   "late": 0.2393,
+   "share": 0.0041
+  },
+  {
+   "customer_state": "SE",
+   "orders": 335,
+   "aov": 209.8183,
+   "freight": 40.9401,
+   "days": 21.5198,
+   "late": 0.1522,
+   "share": 0.0035
+  },
+  {
+   "customer_state": "TO",
+   "orders": 274,
+   "aov": 219.005,
+   "freight": 42.3535,
+   "days": 17.6581,
+   "late": 0.1277,
+   "share": 0.0028
+  },
+  {
+   "customer_state": "RO",
+   "orders": 243,
+   "aov": 234.428,
+   "freight": 46.4331,
+   "days": 19.372,
+   "late": 0.0288,
+   "share": 0.0025
+  },
+  {
+   "customer_state": "AM",
+   "orders": 145,
+   "aov": 190.2446,
+   "freight": 37.4457,
+   "days": 26.426,
+   "late": 0.0414,
+   "share": 0.0015
+  },
+  {
+   "customer_state": "AC",
+   "orders": 80,
+   "aov": 244.6916,
+   "freight": 45.5545,
+   "days": 21.0357,
+   "late": 0.0375,
+   "share": 0.0008
+  },
+  {
+   "customer_state": "AP",
+   "orders": 67,
+   "aov": 240.9225,
+   "freight": 41.2985,
+   "days": 27.1851,
+   "late": 0.0448,
+   "share": 0.0007
+  },
+  {
+   "customer_state": "RR",
+   "orders": 41,
+   "aov": 220.4761,
+   "freight": 48.3427,
+   "days": 29.3875,
+   "late": 0.122,
+   "share": 0.0004
+  }
+ ],
+ "seller_states": {
+  "SP": 0.5974,
+  "PR": 0.1128,
+  "MG": 0.0788,
+  "SC": 0.0614,
+  "RJ": 0.0553
+ },
+ "top10pct_sellers_rev_share": 0.6712,
+ "repeat_rate": 0.03,
+ "orders_per_customer_dist": {
+  "1": 90549,
+  "2": 2573,
+  "3": 181,
+  "4": 47
+ },
+ "distance_median": 433.8,
+ "same_state_share": 0.3597,
+ "corr_distance_days": 0.543,
+ "corr_distance_freight": 0.584,
+ "region_delivery": {
+  "Đông Nam": {
+   "count": 66193.0,
+   "25%": 5.8,
+   "50%": 8.7,
+   "75%": 13.2,
+   "90%": 19.6
+  },
+  "Nam": {
+   "count": 13813.0,
+   "25%": 8.5,
+   "50%": 12.1,
+   "75%": 17.2,
+   "90%": 24.0
+  },
+  "Trung Tây": {
+   "count": 5624.0,
+   "25%": 9.7,
+   "50%": 13.3,
+   "75%": 18.3,
+   "90%": 24.2
+  },
+  "Đông Bắc": {
+   "count": 9044.0,
+   "25%": 12.9,
+   "50%": 17.3,
+   "75%": 24.0,
+   "90%": 33.1
+  },
+  "Bắc": {
+   "count": 1796.0,
+   "25%": 14.5,
+   "50%": 20.2,
+   "75%": 27.4,
+   "90%": 36.6
+  }
+ },
+ "pct_sellers_for_80pct_rev": 17.9,
+ "delivery": {
+  "mean": 12.6,
+  "median": 10.2,
+  "p90": 23.1,
+  "est_mean": 23.7,
+  "early_median": 11.9,
+  "late_rate": 0.0811
+ },
+ "late_by_month": {
+  "2017-01": 0.0307,
+  "2017-02": 0.0321,
+  "2017-03": 0.0558,
+  "2017-04": 0.0786,
+  "2017-05": 0.0361,
+  "2017-06": 0.0386,
+  "2017-07": 0.0343,
+  "2017-08": 0.0332,
+  "2017-09": 0.052,
+  "2017-10": 0.0529,
+  "2017-11": 0.1431,
+  "2017-12": 0.0838,
+  "2018-01": 0.0656,
+  "2018-02": 0.1599,
+  "2018-03": 0.2136,
+  "2018-04": 0.0531,
+  "2018-05": 0.0824,
+  "2018-06": 0.0136,
+  "2018-07": 0.0448,
+  "2018-08": 0.1039
+ },
+ "review_dist": {
+  "1.0": 0.0976,
+  "2.0": 0.0305,
+  "3.0": 0.0826,
+  "4.0": 0.1971,
+  "5.0": 0.5922
+ },
+ "review_mean": 4.156,
+ "delivery_within_50": 0.993,
+ "delay_within_range": 0.9917,
+ "review_by_delay": [
+  {
+   "delay_bucket": "sớm >10 ngày",
+   "n": 56905,
+   "score": 4.3228,
+   "low": 0.0895
+  },
+  {
+   "delay_bucket": "sớm 5-10",
+   "n": 22442,
+   "score": 4.2774,
+   "low": 0.0918
+  },
+  {
+   "delay_bucket": "sớm 0-5",
+   "n": 8816,
+   "score": 4.1515,
+   "low": 0.1107
+  },
+  {
+   "delay_bucket": "trễ 1-3",
+   "n": 2636,
+   "score": 3.7659,
+   "low": 0.1912
+  },
+  {
+   "delay_bucket": "trễ 4-7",
+   "n": 1773,
+   "score": 2.3164,
+   "low": 0.6131
+  },
+  {
+   "delay_bucket": "trễ 8-14",
+   "n": 1748,
+   "score": 1.7431,
+   "low": 0.7815
+  },
+  {
+   "delay_bucket": "trễ >14",
+   "n": 1504,
+   "score": 1.7088,
+   "low": 0.7879
+  }
+ ],
+ "review_by_late": [
+  [
+   4.2941,
+   0.0922
+  ],
+  [
+   2.5651,
+   0.5407
+  ]
+ ],
+ "comment_share": 0.4059,
+ "comment_share_low": 0.7524,
+ "worst_categories": [
+  {
+   "category": "office_furniture",
+   "n": 1236,
+   "score": 3.65
+  },
+  {
+   "category": "bed_bath_table",
+   "n": 9072,
+   "score": 4.01
+  },
+  {
+   "category": "unknown",
+   "n": 1369,
+   "score": 4.03
+  },
+  {
+   "category": "telephony",
+   "n": 4052,
+   "score": 4.06
+  },
+  {
+   "category": "furniture_decor",
+   "n": 6167,
+   "score": 4.07
+  }
+ ],
+ "best_categories": [
+  {
+   "category": "small_appliances",
+   "n": 601,
+   "score": 4.26
+  },
+  {
+   "category": "perfumery",
+   "n": 3063,
+   "score": 4.27
+  },
+  {
+   "category": "pet_shop",
+   "n": 1674,
+   "score": 4.28
+  },
+  {
+   "category": "stationery",
+   "n": 2234,
+   "score": 4.31
+  },
+  {
+   "category": "luggage_accessories",
+   "n": 1004,
+   "score": 4.38
+  }
+ ],
+ "low_by_items": {
+  "1": {
+   "n": 86296,
+   "low": 0.1127
+  },
+  "2": {
+   "n": 7319,
+   "low": 0.254
+  },
+  "3": {
+   "n": 1286,
+   "low": 0.2908
+  },
+  "4": {
+   "n": 923,
+   "low": 0.3413
+  }
+ },
+ "review_by_nsellers": {
+  "1": 4.173,
+  "2": 2.861
+ },
+ "rfm_describe": {
+  "recency": {
+   "count": 93350.0,
+   "mean": 237.95,
+   "std": 152.59,
+   "min": 1.0,
+   "25%": 114.0,
+   "50%": 219.0,
+   "75%": 346.0,
+   "max": 714.0
+  },
+  "frequency": {
+   "count": 93350.0,
+   "mean": 1.03,
+   "std": 0.21,
+   "min": 1.0,
+   "25%": 1.0,
+   "50%": 1.0,
+   "75%": 1.0,
+   "max": 15.0
+  },
+  "monetary": {
+   "count": 93350.0,
+   "mean": 165.17,
+   "std": 226.3,
+   "min": 9.59,
+   "25%": 63.01,
+   "50%": 107.78,
+   "75%": 182.5,
+   "max": 13664.08
+  }
+ },
+ "kmeans_elbow": {
+  "2": 190197,
+  "3": 129147,
+  "4": 82885,
+  "5": 68308,
+  "6": 58412,
+  "7": 51256,
+  "8": 45822
+ },
+ "kmeans_silhouette": {
+  "2": 0.7207,
+  "3": 0.417,
+  "4": 0.3971,
+  "5": 0.3586,
+  "6": 0.3532,
+  "7": 0.3485,
+  "8": 0.3456
+ },
+ "clusters": [
+  {
+   "cluster": 0,
+   "n": 32083,
+   "recency": 272.8893,
+   "frequency": 1.0,
+   "monetary": 296.1587,
+   "monetary_sum": 9501661.03,
+   "repeat": 0.0,
+   "share": 0.3437,
+   "rev_share": 0.6163,
+   "segment": "Khách chi tiêu cao, mua 1 lần"
+  },
+  {
+   "cluster": 1,
+   "n": 2801,
+   "recency": 220.2945,
+   "frequency": 2.1139,
+   "monetary": 308.5282,
+   "monetary_sum": 864187.46,
+   "repeat": 1.0,
+   "share": 0.03,
+   "rev_share": 0.056,
+   "segment": "Khách mua lặp lại"
+  },
+  {
+   "cluster": 2,
+   "n": 42301,
+   "recency": 287.4069,
+   "frequency": 1.0,
+   "monetary": 68.2446,
+   "monetary_sum": 2886816.7,
+   "repeat": 0.0,
+   "share": 0.4531,
+   "rev_share": 0.1872,
+   "segment": "Khách giá trị thấp, lâu không mua"
+  },
+  {
+   "cluster": 3,
+   "n": 16165,
+   "recency": 42.2447,
+   "frequency": 1.0,
+   "monetary": 133.9765,
+   "monetary_sum": 2165729.64,
+   "repeat": 0.0,
+   "share": 0.1732,
+   "rev_share": 0.1405,
+   "segment": "Khách mới gần đây"
+  }
+ ],
+ "clf_n": 95824,
+ "clf_pos_rate": 0.1281,
+ "clf_results": {
+  "Logistic Regression": {
+   "roc_auc": 0.7511,
+   "pr_auc": 0.4209,
+   "precision": 0.3544,
+   "recall": 0.5493,
+   "f1": 0.4308,
+   "cm": [
+    [
+     14255,
+     2456
+    ],
+    [
+     1106,
+     1348
+    ]
+   ]
+  },
+  "Random Forest": {
+   "roc_auc": 0.7624,
+   "pr_auc": 0.4814,
+   "precision": 0.3885,
+   "recall": 0.535,
+   "f1": 0.4501,
+   "cm": [
+    [
+     14644,
+     2067
+    ],
+    [
+     1141,
+     1313
+    ]
+   ]
+  },
+  "Gradient Boosting": {
+   "roc_auc": 0.7592,
+   "pr_auc": 0.4847,
+   "precision": 0.3758,
+   "recall": 0.5505,
+   "f1": 0.4467,
+   "cm": [
+    [
+     14467,
+     2244
+    ],
+    [
+     1103,
+     1351
+    ]
+   ]
+  },
+  "Quy tắc: giao trễ": {
+   "roc_auc": 0.652,
+   "pr_auc": 0.2722,
+   "precision": 0.5438,
+   "recall": 0.3468,
+   "f1": 0.4235,
+   "cm": [
+    [
+     15997,
+     714
+    ],
+    [
+     1603,
+     851
+    ]
+   ]
+  }
+ },
+ "top_decile_low_rate": 0.5509,
+ "top_decile_capture": 0.4303,
+ "perm_importance": {
+  "n_items": 0.0564,
+  "delay_days": 0.0468,
+  "delivery_days": 0.0235,
+  "category_grp": 0.0055,
+  "carrier_days": 0.0044,
+  "weight": 0.0035,
+  "distance_km": 0.0032,
+  "desc_len": 0.0018,
+  "n_sellers": 0.0015,
+  "customer_state": 0.0014,
+  "photos": 0.0014,
+  "price": 0.0013
+ },
+ "lr_coef": {
+  "distance_km": -0.043,
+  "purchase_month": -0.035,
+  "approve_hours": -0.016,
+  "freight": -0.016,
+  "desc_len": -0.009,
+  "purchase_dow": -0.009,
+  "photos": -0.002,
+  "weight": 0.014,
+  "price": 0.025,
+  "freight_ratio": 0.026,
+  "installments": 0.038,
+  "same_state": 0.038,
+  "carrier_days": 0.066,
+  "estimated_days": 0.161,
+  "delay_days": 0.171,
+  "n_sellers": 0.199,
+  "delivery_days": 0.332,
+  "n_items": 0.335,
+  "is_late": 0.419
+ }
+}
